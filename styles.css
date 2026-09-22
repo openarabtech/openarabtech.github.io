@@ -54,8 +54,8 @@ header p {
 
 .social-links a img {
   margin: auto;
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   filter: invert(1);
 }
 
@@ -262,6 +262,8 @@ main {
 
 
 /* START FOOTER */
+
+
 footer {
   /* background-color: #667085; */
   background-color: #080d0b;
@@ -269,6 +271,18 @@ footer {
   font-weight: 400;
   padding: 4px;
   font-size: medium;
+}
+
+.social-media {
+  margin: 0;
+  padding: 0;
+}
+
+.social-media a svg{
+height: 32px;
+width: 32px;
+filter: invert(1);
+border-radius: 50%;
 }
 
 /* ENDS FOOTER */
