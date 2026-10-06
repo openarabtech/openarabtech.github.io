@@ -104,6 +104,10 @@ main {
   transition: background-color 0.3s;
 }
 
+.box .project-cover {
+  width: 100%;
+}
+
 .box a {
   text-decoration: none;
   color: #22c55e;
